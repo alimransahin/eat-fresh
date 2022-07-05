@@ -1,0 +1,104 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+section{
+    margin-bottom: 50px;
+}
+.header{
+    padding: 5% 5% 0 5%;
+    display: flex;
+}
+h1{
+    font-size: 60px;
+    color: #575757; 
+}
+h2{
+    font-size: 40px;
+    color: #707070;
+}
+h3{
+    font-size: 28px;
+    color: #18191F;
+    margin-bottom: 0;
+}
+span{
+    color: #FBA24F;
+}
+p{
+    color:#828282;
+    font-size: 20px;
+    margin-top: 0;
+}
+.text{
+    width: 50%;
+}
+.img{
+    width: 50%;
+    text-align: center;
+}
+.img img{
+    width: 70%;
+}
+.btn{
+    color: #fff;
+    background-image: linear-gradient(to right, #FBA24F,#FF1E1E);
+    text-decoration: none;
+    padding:20px 40px;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 60px 0;
+}
+.banner{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner .img img {
+    width: 50%;
+}
+.title{
+    text-align: center;
+}
+.title .inner-text{
+    width: 50%;
+    display: inline-block;
+}
+.recipies{
+    margin: 0 5%;
+}
+.slide{
+    display: flex;
+}
+.card{
+    padding: 1.5%;
+    box-shadow: 10px 10px 50px #80808084;
+    border-radius: 20px;
+}
+.card1{
+    margin-right:1%;
+}
+.card2 {
+    margin-left: 1%;
+}
+.slide img{
+    width: 100%;
+}
+.one-third{
+    display: inline-block;
+}
+.count{
+    display: flex;
+    margin: 5%;
+    box-shadow: 10px 10px 50px #80808084;
+    border-radius: 20px;
+    text-align: justify;
+}
+footer{
+    background: #0B0D17;
+    text-align: center;
+    padding: 2.5% 0 5%;
+}
